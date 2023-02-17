@@ -1,0 +1,92 @@
+/* 
+#03001C
+#301E67
+#5B8FB9
+#B6EADA */
+
+
+html {
+    background: #B6EADA;
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+}
+
+h1, h2, h5 {
+    font-family: 'Bangers', cursive;
+}
+
+header {
+    background: #301E67;
+    border-bottom: 2px solid #333;
+}
+
+.navbar-brand {
+    padding: 10px 20px;
+    line-height: 2.5rem;
+    font-family: 'Bangers', cursive;
+    font-size: 2.5rem;
+    color: #5B8FB9;
+}
+
+.navbar-brand:hover {
+    color: #DDD;
+}
+
+.nav-link {
+    color: #5B8FB9;
+}
+
+.nav-link:hover {
+    color: #DDD;
+}
+
+.nav-link.active {
+    color: #5B8FB9 !important;
+    font-weight: bolder;
+}
+
+.tracker {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+footer {
+    background-color: #301E67;
+    color: #DDD;
+    bottom:0px;
+    font-size: small;
+    height:30px;
+    left:0px;
+    position:fixed;
+    text-align: center;
+    width:100%;
+    border-top: 2px solid #333;
+}
+
+.body {
+    background: #B6EADA;
+}
+
+.card {
+    background-color: #301E67;
+    color: #DDD;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #5B8FB9;
+    
+}
+
+.btn {
+    background-color: #5B8FB9;
+}
+
+.btn:hover {
+    background-color: #585AC7;
+}
+
+.btn:active {
+    background-color: #585AC7 !important;
+}
