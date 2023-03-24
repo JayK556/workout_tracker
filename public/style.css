@@ -64,6 +64,14 @@ footer {
     border-top: 2px solid #333;
 }
 
+form {
+    background-color: #301E67;
+    color: #ddd;
+    border: 2px solid #5B8FB9;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
 .body {
     background: #B6EADA;
 }

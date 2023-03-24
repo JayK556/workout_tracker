@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ExerciseInfo from "../template/ExerciseInfo";
+import { ExerciseInfo } from "../template/ExerciseInfo";
 
             
 
@@ -53,7 +53,7 @@ export default function AddExercise() {
     }
 
     return (
-        <form className="container-fluid mb-3 pt-4 w-75" onSubmit={handleSubmit}>
+        <form className="container-fluid py-4 w-75" onSubmit={handleSubmit}>
             <h2>Enter a new exercise</h2>
             <label className="form-label" htmlFor="date" >Date</label>
             <input 
